@@ -187,7 +187,7 @@
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  class="w-6 h-6 text-gray-800"
+                  class="w-6 h-6 text-gray-800 hover:text-gray-600"
                 >
                   <path
                     stroke-linecap="round"
@@ -204,7 +204,7 @@
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  class="w-6 h-6 text-gray-800"
+                  class="w-6 h-6 text-gray-800 hover:text-gray-600"
                 >
                   <path
                     stroke-linecap="round"
@@ -295,7 +295,7 @@
             </h2>
 
             <div class="mt-4 flex items-center justify-between gap-4">
-              <div class="w-1/2 p-6 flex bg-blue-100">
+              <div class="w-1/2 p-6 flex bg-blue-100 rounded-lg cursor-pointer">
                 <div
                   class="h-8 flex items-center bg-white text-center rounded-full"
                 >
@@ -318,7 +318,7 @@
                 </div>
               </div>
 
-              <div class="w-1/2 p-6 flex bg-blue-100">
+              <div class="w-1/2 p-6 flex bg-blue-100 rounded-lg cursor-pointer">
                 <div
                   class="h-8 flex items-center bg-white text-center rounded-full"
                 >
@@ -343,7 +343,7 @@
             </div>
 
             <div class="mt-4 flex justify-between gap-4">
-              <div class="w-1/2 p-6 flex bg-blue-100">
+              <div class="w-1/2 p-6 flex bg-blue-100 rounded-lg cursor-pointer">
                 <div
                   class="h-8 flex items-center bg-white text-center rounded-full"
                 >
@@ -367,7 +367,7 @@
               </div>
 
               <div
-                class="w-1/2 p-6 flex flex-col items-center justify-center bg-white border"
+                class="w-1/2 p-6 flex flex-col items-center justify-center bg-white border rounded-lg cursor-pointer hover:bg-gray-100"
               >
                 <span>
                   <svg
@@ -395,12 +395,14 @@
           </h2>
 
           <div class="mt-4 p-4 bg-blue-100 space-y-2 rounded-lg">
-            <div class="p-4 bg-white flex rounded">
+            <div class="p-4 bg-white flex rounded hover:bg-gray-100">
               <div>
                 <span class="block h-4 w-4 border rounded-full"></span>
               </div>
               <div class="ml-2">
-                <p class="text-sm font-semibold leading-none text-gray-800">
+                <p
+                  class="text-sm font-semibold leading-none text-gray-800 cursor-pointer"
+                >
                   Better quality favicon
                 </p>
                 <div class="mt-2 flex items-center justify-between">
@@ -412,12 +414,14 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 bg-white flex rounded">
+            <div class="p-4 bg-white flex rounded hover:bg-gray-100">
               <div>
                 <span class="block h-4 w-4 border rounded-full"></span>
               </div>
               <div class="ml-2 w-full">
-                <p class="text-sm font-semibold leading-none text-gray-800">
+                <p
+                  class="text-sm font-semibold leading-none text-gray-800 cursor-pointer"
+                >
                   Social accounts setup
                 </p>
                 <div class="mt-2 flex items-center justify-between">
@@ -452,7 +456,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 bg-white flex rounded">
+            <div class="p-4 bg-white flex rounded hover:bg-gray-100">
               <div>
                 <span>
                   <svg
@@ -471,7 +475,9 @@
                 </span>
               </div>
               <div class="ml-2 w-full">
-                <p class="text-sm font-semibold leading-none text-gray-800">
+                <p
+                  class="text-sm font-semibold leading-none text-gray-800 cursor-pointer"
+                >
                   Upgrade plan page
                 </p>
                 <div class="mt-2 flex items-center justify-between">
@@ -506,7 +512,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 bg-white flex rounded">
+            <div class="p-4 bg-white flex rounded hover:bg-gray-100">
               <div>
                 <span>
                   <svg
@@ -525,7 +531,9 @@
                 </span>
               </div>
               <div class="ml-2 w-full">
-                <p class="text-sm font-semibold leading-none text-gray-800">
+                <p
+                  class="text-sm font-semibold leading-none text-gray-800 cursor-pointer"
+                >
                   Email templates
                 </p>
                 <div class="mt-2 flex items-center justify-between">
