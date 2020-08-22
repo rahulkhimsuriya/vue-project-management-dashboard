@@ -231,7 +231,7 @@
         </div>
       </header>
 
-      <div class="flex">
+      <div class="flex gap-6">
         <div class="w-3/5">
           <div>
             <h2 class="text-base font-semibold text-gray-900">
@@ -389,7 +389,177 @@
             </div>
           </div>
         </div>
-        <div class="w-2/5"></div>
+        <div class="w-2/5">
+          <h2 class="text-base font-semibold text-gray-900">
+            YOUR TASKS
+          </h2>
+
+          <div class="mt-4 p-4 bg-blue-100 space-y-2 rounded-lg">
+            <div class="p-4 bg-white flex rounded">
+              <div>
+                <span class="block h-4 w-4 border rounded-full"></span>
+              </div>
+              <div class="ml-2">
+                <p class="text-sm font-semibold leading-none text-gray-800">
+                  Better quality favicon
+                </p>
+                <div class="mt-2 flex items-center justify-between">
+                  <span
+                    class="px-2 py-1 bg-red-400 text-sm text-white leading-none rounded-full"
+                  >
+                    Design
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-white flex rounded">
+              <div>
+                <span class="block h-4 w-4 border rounded-full"></span>
+              </div>
+              <div class="ml-2 w-full">
+                <p class="text-sm font-semibold leading-none text-gray-800">
+                  Social accounts setup
+                </p>
+                <div class="mt-2 flex items-center justify-between">
+                  <span
+                    class="px-2 py-1 bg-green-400 text-sm text-white leading-none rounded-full"
+                  >
+                    Marketing
+                  </span>
+
+                  <div class="flex items-center justify-center space-x-2">
+                    <span>
+                      <svg
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+                    <time
+                      datetime="12:30"
+                      class="text-sm text-gray-900 font-normal leading-none"
+                      >12:30</time
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-white flex rounded">
+              <div>
+                <span>
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke="#fff"
+                    class="w-6 h-6 text-indigo-600"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-2 w-full">
+                <p class="text-sm font-semibold leading-none text-gray-800">
+                  Upgrade plan page
+                </p>
+                <div class="mt-2 flex items-center justify-between">
+                  <span
+                    class="px-2 py-1 bg-purple-400 text-sm text-white leading-none rounded-full"
+                  >
+                    Development
+                  </span>
+
+                  <div class="flex items-center justify-center space-x-2">
+                    <span>
+                      <svg
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+                    <time
+                      datetime="14:30"
+                      class="text-sm text-gray-900 font-normal leading-none"
+                      >14:30</time
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-white flex rounded">
+              <div>
+                <span>
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke="#fff"
+                    class="w-6 h-6 text-indigo-600"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-2 w-full">
+                <p class="text-sm font-semibold leading-none text-gray-800">
+                  Email templates
+                </p>
+                <div class="mt-2 flex items-center justify-between">
+                  <span
+                    class="px-2 py-1 bg-red-400 text-sm text-white leading-none rounded-full"
+                  >
+                    Design
+                  </span>
+
+                  <div class="flex items-center justify-center space-x-2">
+                    <span>
+                      <svg
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"
+                        ></path>
+                      </svg>
+                    </span>
+                    <p class="text-sm text-gray-900 font-normal leading-none">
+                      6
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </div>
